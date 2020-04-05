@@ -1,0 +1,413 @@
+.clearfix{
+  clear:both;
+  float:none;  
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../img/fondo.jpg) no-repeat center top;
+	background-size: cover;
+        
+	font-family: sans-serif;
+}
+
+.box {  
+	width: 420px;
+	height: 500px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.box .logo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.box .titulo {
+        background: #000;
+        color:#fff!important;
+        margin: 0;
+	text-align: center;
+	font-size: 50px;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        letter-spacing: 2px;
+}
+
+.box .titulo-recuperar {
+        background: #000;
+        color:#fff!important;
+        margin: 0;
+	text-align: center;
+	font-size: 45px;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        letter-spacing: 2px;
+}
+
+.box .texto-importante{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5px;
+    line-height: 30px;
+    border:solid;
+    border-color:#555;
+    padding:10px;
+}
+.box .datos{
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: -1%;
+}
+
+
+.box label{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+
+.box input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.box .input {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.box .boton {
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #b80f22;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	width: 100%;
+	
+}
+
+.box .boton:hover {
+	background:#FF0000;
+       
+}
+
+.box .volver{
+       float:right;
+       text-decoration: none;
+	font-size: 14px;
+	line-height: 25px;
+	color: #777;
+}
+
+.box .volver:hover {
+	color: #fff;;
+       
+}
+
+.btn-ingresar{
+	margin-top: 30px!important;
+}
+
+ .box .enlace{
+    text-decoration:none;
+	font-size: 14px;
+	line-height: 25px;
+	color: #777;
+	float:right;
+	margin-right:1px;	
+	margin-top: 65px;
+} 
+
+.box a:hover {
+	color: #fff;
+}
+
+.alerta{
+    padding:5px;
+    font-size:14px;
+    color:#fff;
+    background:green;
+    box-shadow: 0px 1px 3px #ccc;
+    margin-top:6px;
+    margin-bottom:3%;
+}
+
+.alerta-error{
+    background:red;
+    margin-top: -18px;
+}
+
+/*//ESTILO MENU//*/
+.contenedor-box{
+        margin:10% auto;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 1000px;
+        
+        
+
+}
+.box2{	max-width:800px;
+        width: 80%;
+	height: 200px;
+        float: left;
+}
+
+.caja{
+	width: 200px;
+	height: 200px;
+	float: left;
+	-webkit-transition: height .3s;
+}
+
+
+.titulo-option h2{
+    padding-top: 7%;
+}
+
+.option{
+	width: 200px;
+	height: 50px;
+	float: left;
+	-webkit-transition: height .3s;
+}
+.contenedor-option{  
+        background:  #544fc1!important;
+	max-width: 200px;
+        width: 20%;
+	height: 400px;
+	float: right;
+         font-weight: 300;
+	-webkit-transition: height .3s;
+}
+.contenedor-option h2{
+     font-weight: 300!important;
+}
+.contenedor-option p{
+   opacity:0.9;
+    text-align:center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 36px;
+    font-size: 0.9em;
+    -webkit-transition: padding-top .3s;
+    
+    
+}
+
+
+.contenedor-option a{
+    color:#FFF!important;
+    -webkit-transition: padding-top .3s!important;
+    text-decoration: none;
+    
+   
+}
+.contenedor-option a:hover{
+    color:#000!important;
+}
+
+.contenedor-option p:hover{
+    padding-top: 42px;
+    
+}
+
+
+
+#cero{
+	background-color:   #7672d4;
+}
+
+#uno{
+	background-color:#9aadfa ;
+}
+
+#dos{
+	background-color:#e6c7f9;
+}
+
+#tres{
+	background-color: #f9f5fc;
+}
+
+#cuatro{
+	background-color: #f9f5fc;
+
+}
+
+#cinco{
+	background-color:  #e6c7f9;
+}
+
+#seis{
+	background-color:   #9aadfa ;
+}
+
+#siete{
+	background-color:  #7672d4;
+}
+
+img.icon{
+        color: black;
+	display: block;
+	margin: 50px auto;
+	background-color: rgba(255,255,255,.15);
+	width: 40px;
+	padding: 10px;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-border-radius: 50px;
+	-webkit-transition:box-shadow 1.4s;
+}
+
+
+p.texto{
+        letter-spacing: 0.2px;
+	font-size: 1em;
+	color:#black;
+        font-weight: 300;
+	text-align: center;
+        text-transform: uppercase;
+	opacity: .6;
+       
+	-webkit-transition: padding-top .4s;
+	cursor: pointer;
+        
+        
+}
+
+/*.contenedor-option .option p {
+    margin-bottom:  50px!important;
+}*/
+p.texto:hover{
+	
+	color:#fff
+}
+
+
+.contenedor:hover p.texto{
+	padding-top: 3px;
+	opacity: 1;
+        color:#fff
+}
+
+.contenedor:hover img.icon{
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+.contenedor2{
+    width: 200px;
+    height: 100px;
+    background:  #f26969 ;
+    display: flex;
+    margin:-5% auto;
+    
+    
+}
+
+.contenedor2 p{
+    font-size: 2.7em;
+    margin: auto auto;
+}
+.contenedor2 a{
+    color:#000;
+    text-decoration: none;
+}
+.contenedor2 a:hover{
+    color:#fff;
+   
+}
+.clearfix{
+    overflow: auto;
+}
+.pie{
+    
+}
+/* eliminar usuario */
+
+.box-eliminar{
+	width:auto!important;
+	height: auto!important;
+}
+
+.box-eliminar h1{
+	font-size: 1.8em;
+	text-transform: uppercase;
+	text-align: center;
+}
+#tabla_usuarios {
+	overflow-x: hidden!important;
+	overflow-y: scroll!important;
+	max-width: 100%!important;
+	overflow:scroll;
+	height:300px;
+	width:380px;
+	margin-bottom: 20px;
+	
+}
+.table{
+	color:#fff!important;
+	background:#111!important;
+	text-transform: uppercase;
+	width:500px;
+	font-size: 14px;
+}
+
+.btn-borrar{
+	background:red;
+	color:#fff;
+	font-size:20px;
+}
+
+.buscar-titulo{
+	margin-bottom: 1%;
+}
+#busqueda{
+	width: 70%;
+	float: left;
+}
+
+.buscar-submit{
+	width: 20%;
+	margin-left:10%;
+	float:left;
+	
+}
+
+/* .btn-buscar{
+	background:green;
+	color:#fff;
+	height: 34px;;
+} */
+
+
+
+
+
